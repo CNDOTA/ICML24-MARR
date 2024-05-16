@@ -11,7 +11,7 @@ import torch as th
 from utils.logging import get_logger
 import yaml
 
-os.environ['CUDA_VISIBLE_DEVICES'] = "1"
+os.environ['CUDA_VISIBLE_DEVICES'] = "0"
 
 from run import run
 

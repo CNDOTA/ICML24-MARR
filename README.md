@@ -7,7 +7,7 @@ This repository is the official implementation of [Sample-Efficient Multiagent R
 To run MARR-QMIX in SMAC on the map of 5m_vs_6m, run this command after changing directory into '/marr-smac':
 
 ```smac
-python src/main.py --config=rrmix --env-config=sc2 with env_args.map_name=5m_vs_6m seed=1 t_max=2010000 > 1.log 2>&1 &
+python src/main.py --config=rrmix --env-config=sc2 with env_args.map_name=5m_vs_6m seed=1 t_max=1010000 > 1.log 2>&1 &
 ```
 
 Change the map_name to run on different maps.
