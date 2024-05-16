@@ -18,7 +18,9 @@ The configuration could be revised in /src/config/algs/rrmix.yaml.
 
 ## Running in MPE
 
-Please install the environment as indicated in the subfolder of '/marr-mpe'. We only need to install MPE.
+Please install the environment as indicated in the subfolder of '/marr-mpe'. 
+
+We only need to install MPE, please use the environment files in '/marr-mpe/src/envs/multiagent-particle-envs'.
 
 To run MARR-FACMAC in MPE on the task of 3a, run this command after changing directory into '/marr-mpe':
 
