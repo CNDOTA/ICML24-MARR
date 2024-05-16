@@ -1,0 +1,40 @@
+# --- MARR-QMIX specific parameters ---
+
+# use epsilon greedy action selector
+action_selector: "epsilon_greedy"
+epsilon_start: 1.0
+epsilon_finish: 0.05
+epsilon_anneal_time: 50000  # default is 50000 
+
+# runner: "episode"
+runner: "parallel"
+batch_size_run: 8
+
+buffer_size: 5000  # default is 5000
+
+# update the target network every {} episodes
+target_update_interval: 200
+
+# use the Q_Learner to train
+agent_output_type: "q"
+learner: "rrq_learner"
+double_q: True
+mixer: "qmix"
+mixing_embed_dim: 32  # default is 32
+hypernet_layers: 2  # default is 2
+hypernet_embed: 64  # default is 64
+
+rnn_hidden_dim: 64  # default is 64
+
+replay_ratio: 50
+
+reset_mode: # 'shrink_and_perturb'
+## for shrink_and_perturb
+reset_interval: 2000
+reset_mixer_alpha: 0.8  # keep alpha% parameters
+reset_agent_alpha: 0.8  # keep alpha% parameters
+
+random_amplitude_scaling: True
+
+name: "RR50_SP2000_0.8_0.8_RAD_5m_vs_6m_P8"
+
