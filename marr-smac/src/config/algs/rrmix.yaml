@@ -28,7 +28,7 @@ rnn_hidden_dim: 64  # default is 64
 
 replay_ratio: 50
 
-reset_mode: # 'shrink_and_perturb'
+reset_mode: 'shrink_and_perturb'
 ## for shrink_and_perturb
 reset_interval: 2000
 reset_mixer_alpha: 0.8  # keep alpha% parameters
