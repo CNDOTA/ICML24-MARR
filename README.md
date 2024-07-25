@@ -1,6 +1,6 @@
 # Sample-Efficient Multiagent Reinforcement Learning with Reset Replay (ICML 2024)
 
-This repository is the official implementation of [Sample-Efficient Multiagent Reinforcement Learning with Reset Replay](), which is published in ICML 2024.
+This repository is the official implementation of [Sample-Efficient Multiagent Reinforcement Learning with Reset Replay](https://openreview.net/pdf?id=w8ei1o9U5y), which is published in ICML 2024.
 
 ## Running in SMAC
 
